@@ -1,4 +1,4 @@
-import { registerHandlers } from "./handlers";
+import {  registerHandlers2 } from "./handlers";
 import "./style.css";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
@@ -8,4 +8,4 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   </div>
 `;
 
-registerHandlers();
+registerHandlers2();
