@@ -15,7 +15,7 @@ test("sendNumber is ok", () => {
   expect(res).toBe(23);
 });
 
-test("xxx", () => {
+test("sendNumberWithSender is ok", () => {
   // numberStream is an RxJs Observable
   let n1, sender1;
   numberAndSenderStream.subscribe(([n, sender]) => {
